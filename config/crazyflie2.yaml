@@ -1,0 +1,41 @@
+PIDs:
+  X:
+    kp: 8500
+    kd: 4500
+    ki: 1500
+    minOutput: -30000
+    maxOutput: 30000
+    integratorMin: -0.1
+    integratorMax: 0.1
+  tau:
+    kp: 31000
+    kd: 2500
+    ki: 2500
+    minOutput: -35000
+    maxOutput: 35000
+    integratorMin: -0.1
+    integratorMax: 0.1
+  Y:
+    kp: 14500
+    kd: 4500
+    ki: 2000
+    minOutput: -30000
+    maxOutput: 30000
+    integratorMin: -0.1
+    integratorMax: 0.1
+  Z:
+    kp: 20000
+    kd: 3500
+    ki: 1500
+    minOutput: -30000
+    maxOutput: 30000
+    integratorMin: -1000
+    integratorMax: 1000
+  Yaw:
+    kp: -200.0
+    kd: -20.0
+    ki: 0.0
+    minOutput: -200.0
+    maxOutput: 200.0
+    integratorMin: 0.0
+    integratorMax: 0.0
